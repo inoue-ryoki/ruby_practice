@@ -1,4 +1,4 @@
-# bを一回だけ呼ぶように
+# cを一回だけ代入
 
 class Test
   def a
@@ -15,7 +15,7 @@ class Test
 
   def c
     p 'cメソッド'
-    c ||= 2
+    @c ||= 2
   end
 end
 
